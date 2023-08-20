@@ -12,3 +12,6 @@ The core concept underlying the crawling process revolves around the utilization
  - Email : 20je0420@ee.iitism.ac.in / goyalhimanshu424@gmail.com
  - Phone : +91-74129 72658
  - Addmission Number : 20JE0420
+
+ # Example 
+ ![Alt text](./report_example.png)
