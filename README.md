@@ -1,2 +1,2 @@
 ## web Crawler
-We crawler by himanshu goyal
+Web crawler by himanshu goyal
