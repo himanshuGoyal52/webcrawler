@@ -13,5 +13,9 @@ The core concept underlying the crawling process revolves around the utilization
  - Phone : +91-74129 72658
  - Addmission Number : 20JE0420
 
+# How to use this crawler 
+- first open your terminal where this code is present.
+- Then write ```npm start <website-url>``` and then one output pdf is genrated open it and see the report.
+
  # Example 
  ![Alt text](./report_example.png)

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello world!</title>
+  </head>
+  <body>
+    <h1>Pages List</h1>
+    <ul>
+      {{#each pages}}
+      <li >URL: {{this.url}}</li>
+      <li>Hits: {{this.hits}}</li>
+      <br />
+      {{/each}}
+    </ul>
+  </body>
+</html>

@@ -1,5 +1,5 @@
 const { crawlPage } = require('./crawl.js');
-const { printReport } = require("./report.js");
+const { printReport, genratePdf } = require("./report.js");
 
 async function main(){
     if(process.argv.length < 3){
@@ -16,7 +16,8 @@ async function main(){
     console.log(`starting crawl of ${baseURL} ...`);
     const pages = await crawlPage(baseURL , baseURL , {});
 
-    printReport(pages);
+    // printReport(pages); // can also use this for report
+    genratePdf(pages , baseURL);
 }
 
 main();
