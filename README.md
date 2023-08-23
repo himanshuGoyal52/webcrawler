@@ -14,8 +14,10 @@ The core concept underlying the crawling process revolves around the utilization
  - Addmission Number : 20JE0420
 
 # How to use this crawler 
-- first open your terminal where this code is present.
-- Then write ```npm start <website-url>``` and then one output pdf is genrated open it and see the report.
+- Download the code base of this repo in your system.
+- Open this folder and then run ```npm install``` in terminal to install node_modules.
+- Then write ```npm start <website-url-you-want-to-crwal>``` and then one report.pdf is genrated open it and see the report.
+
 
  # Example 
  ![Alt text](./report_example.png)

@@ -38,7 +38,7 @@ function genratePdf(pages , baseURL){
         data: {
           pages: newPages,
         },
-        path: "./output.pdf",
+        path: `./report_${normalURL}.pdf`,
         type: "",
     };
 
